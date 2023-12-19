@@ -26,7 +26,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
+/hatch.toml
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -141,6 +141,7 @@ dmypy.json
 *.orig
 
 # Datasets
+/data/
 *.h5ad
 *.h5md
 *.h5mu
